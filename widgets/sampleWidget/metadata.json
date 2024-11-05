@@ -1,0 +1,7 @@
+{
+    "uuid": "sampleWidget@patrick",
+    "name": "Hello World",
+    "description": "A simple hello world GNOME extension.",
+    "shell-version": ["42"],
+    "version": 1
+}
