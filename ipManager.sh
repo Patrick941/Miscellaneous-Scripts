@@ -18,6 +18,7 @@ pull_ip() {
   repo_dir="$HOME/.secrets"
   
   cd "$repo_dir"
+  git reset --hard HEAD
   git pull origin main
   latest_ip=$(cat "$repo_dir/current_ip.txt")
   echo "Latest IP from repository: $latest_ip"
