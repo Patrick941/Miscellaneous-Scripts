@@ -10,7 +10,7 @@ push_ip() {
     cd "$repo_dir"
     git add current_ip.txt
     git commit -m "Update IP to $current_ip"
-    git push origin main
+    git push origin main --force
   fi
 }
 
