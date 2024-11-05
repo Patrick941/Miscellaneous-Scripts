@@ -11,6 +11,8 @@ push_ip() {
     git add current_ip.txt
     git commit -m "Update IP to $current_ip"
     git push origin main --force
+  else
+    echo "No change in IP address. No update needed."
   fi
 }
 
